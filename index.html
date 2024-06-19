@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">
+            <img src="/image/image.png" alt="logo" width="70px" height="50px">
+            <h1>luxury car</h1>
+        </div>
+
+        <div class="item">
+            <a class="home-btn" href="index.html">Home</a>
+            <a href="rent.html">Rent Car</a>
+            <a href="about.html">About Us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact Us</a>
+        </div>
+         <button id="login-btn" >Log in</button>
+
+         <!-- The user info container -->
+         <div id="user-info"></div>
+
+         <div id="login-dialog" style="display: none;" class="container">
+             <!-- The login dialog box -->
+             <form class="form">
+                <p class="heading">Login</p>
+                <input class="input" placeholder="Username" type="text" id="username"name="username" required>
+                <input class="input" placeholder="Password" type="password" id="password" name="password"required> 
+                <button type="submit" class="btn">login</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Easy And Fast Way To <span style="color: #0043ff8c;">Rent</span> Your Car</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusamus nobis similique ab
+                    praesentium itaque dolore quidem debitis distinctio laborum!</p>
+                <div class="btn">
+                    <input class="car" type="button" value="Rent Car">
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="/image/bmw-22428.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="loc-sec">
+        <div class="main-sec">
+            <div class="pick">
+                <label for="location">Pick Up Location</label>
+                <p><i class="fa-solid fa-location-dot"></i> Kathmandu,nepal</p>
+            </div>
+
+            <div class="pick">
+                <label for="location">Pick Up Location</label>
+                <p><i class="fa-solid fa-location-dot"></i> Bhaktapur,nepal</p>
+            </div>
+
+            <div class="pick">
+                <label for="location">Pick Up Date</label>
+                <p><i class="fa-solid fa-calendar-days"></i> 14-026-2024</p>
+                <!-- <input type="date" name="date" id=""> -->
+            </div>
+
+            <div class="pick">
+                <label for="location">Return Date</label>
+                <p><i class="fa-solid fa-calendar-days"></i> 16-06-2024</p>
+            </div>
+
+            <div class="pick">
+                <input type="button" value="Search Car">
+            </div>
+        </div>
+    </section>
+
+    <section class="car-sec">
+        <div class="txt">
+            <p class="txt1">Latest <span>Inventory</span></p>
+            <p class="txt2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ipsa!</p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">Lamborghini Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>5k per hour</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1633359064754-804ba55e733f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dmVybmF8ZW58MHx8MHx8fDA%3D"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">Lamborghini Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 7.5k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>5k per hour</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyfGVufDB8fDB8fHww"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">Lamborghini Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 5k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>5k per hour</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FyfGVufDB8fDB8fHww"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">Lamborghini Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 10k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>5k per hour</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img style="width: 365px;"
+                    src="https://images.unsplash.com/photo-1590362891991-f776e747a588?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNhcnxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="">
+                <div class="details">
+
+                    <p class="car-name">Lamborghini Super Car</p>
+
+                    <div class="review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <p>( 6.7k Reviews )</p>
+                    </div>
+
+                    <div class="feature">
+                        <p><i class="fa-solid fa-chair"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-charging-station"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-battery"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-cable-car"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-car-side"></i> 6 Seat</p>
+                        <p><i class="fa-solid fa-caravan"></i> 6 Seat</p>
+                    </div>
+
+                    <div class="price">
+                        <p>5k per hour</p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="support-sec">
+        <div class="txt">
+            <p class="txt1">Why <span>Choose</span> Us</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, cupiditate!</p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <div class="txt-sec">
+                    <p class="txt1">24 Hour Support</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-flag-checkered"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Best Price</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Verified License</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-regular fa-circle-xmark"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Free Cancelation</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore doloremque sequi animi ab
+                        corporis, necessitatibus eum cum vel rerum nisi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="achie-sec">
+        <div class="txt">
+            <p class="txt1">Our <span>Achievement</span></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident.</p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <p class="txt1">4000+</p>
+                <p>Active Member</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">3000+</p>
+                <p>Car Color</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">6000+</p>
+                <p>Car Model</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">10k</p>
+                <p>Positive Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="start-sec">
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Ready To Get Start?</p>
+                <p class="txt2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ipsa eos neque quo consectetur totam perferendis aut quos sequi expedita.</p>
+                <div class="btn">
+                    <button>Contact Us</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="image/verna.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+                <img src="/image/image.png" alt="logo" width="50px" height="30px">
+              <span class="logo_name">Luxury Car</span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">luxury car</a></li>
+              <li><a href="#">free driver</a></li>
+              <li><a href="#">pickup facilities</a></li>
+              <li><a href="#">life insurance</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">gallery</li>
+              <img src="" alt="gallery photo">
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2024 <a href="#">Luxury Car </a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+    <script>
+        // Get the elements
+const loginBtn = document.getElementById('login-btn');
+const userInfoContainer = document.getElementById('user-info');
+const loginDialog = document.getElementById('login-dialog');
+
+// Add an event listener to the login button
+loginBtn.addEventListener('click', () => {
+  loginDialog.style.display = 'block';
+});
+
+// Add an event listener to the login form
+loginDialog.querySelector('form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const username = loginDialog.querySelector('#username').value;
+  const password = loginDialog.querySelector('#password').value;
+  // Validate the credentials (e.g., make an API call or check against a database)
+  if (validateCredentials(username, password)) {
+    // Hide the login dialog and button
+    loginDialog.style.display = 'none';
+    loginBtn.style.display = 'none';
+    // Show the user info
+    userInfoContainer.innerHTML = `
+      <i class="fa-solid fa-user"></i>
+      <span>${username}</span>
+    `;
+  } else {
+    alert('Invalid credentials');
+  }
+});
+function validateCredentials(username, password) {
+  return true;
+}
+    </script>
+</body>
+
+</html>
